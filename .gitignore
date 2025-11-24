@@ -20,3 +20,13 @@ node_modules
 .config/raycast/extensions
 .config/databricks-sdk-py
 .cursor/extensions
+
+# Claude Code - track config, ignore runtime data
+.claude/*
+!.claude/CLAUDE.md
+!.claude/agents/
+!.claude/commands/
+!.claude/plugins/
+.claude/plugins/*
+!.claude/plugins/installed_plugins.json
+!.claude/plugins/known_marketplaces.json
