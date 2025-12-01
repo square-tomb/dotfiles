@@ -23,6 +23,7 @@ node_modules
 
 # Claude Code - track config, ignore runtime data
 .claude/*
+!.claude/settings.json
 !.claude/CLAUDE.md
 !.claude/agents/
 !.claude/commands/
