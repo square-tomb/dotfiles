@@ -45,3 +45,10 @@ export PATH="$PATH:$HOME/.rvm/bin"
  
 # Adding libexec/bin to path
 export PATH=$PATH:/opt/homebrew/opt/python@3/libexec/bin
+
+# Experimental `claude` flags to preserve context when MCPs are enabled. They
+# are mutually exclusive, so set only one to true
+#
+# https://github.com/anthropics/claude-code/issues/12836#issuecomment-3629052941
+export ENABLE_EXPERIMENTAL_MCP_CLI=false
+export ENABLE_TOOL_SEARCH=true
